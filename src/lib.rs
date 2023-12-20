@@ -8,3 +8,11 @@ pub struct Joy
     joy_left_y:u8,
     joy_right_y:u8,
 }
+
+#[derive(Serialize, Deserialize)]
+pub struct CmdVel
+{
+    x:f32,
+    y:f32,
+    rotation_power:f32,
+}

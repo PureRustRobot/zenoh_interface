@@ -7,7 +7,7 @@ use serde::{Serialize, Deserialize};
 #[derive(Serialize, Deserialize)]
 pub struct CmdVel
 {
-    x:f32,
-    y:f32,
-    rotation_power:f32,
+    pub x:f32,
+    pub y:f32,
+    pub rotation_power:f32,
 }

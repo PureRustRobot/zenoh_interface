@@ -3,27 +3,27 @@ use serde::{Serialize, Deserialize};
 #[derive(Serialize, Deserialize)]
 pub struct Axis
 {
-    joy_left_x:u8,
-    joy_right_x:u8,
-    joy_left_y:u8,
-    joy_right_y:u8,
+    pub joy_left_x:u8,
+    pub joy_right_x:u8,
+    pub joy_left_y:u8,
+    pub joy_right_y:u8,
 }
 
 #[derive(Serialize, Deserialize)]
 pub struct Buttons
 {
-    joy_left:f32,
-    joy_right:f32,
-    circle:f32,
-    cross:f32,
-    square:f32,
-    triangle:f32,
-    up:f32,
-    down:f32,
-    right:f32,
-    left:f32,
-    _l1_:f32,
-    _l2_:f32,
-    _r1_:f32,
-    _r2_:f32,
+    pub joy_left:f32,
+    pub joy_right:f32,
+    pub circle:f32,
+    pub cross:f32,
+    pub square:f32,
+    pub triangle:f32,
+    pub up:f32,
+    pub down:f32,
+    pub right:f32,
+    pub left:f32,
+    pub _l1_:f32,
+    pub _l2_:f32,
+    pub _r1_:f32,
+    pub _r2_:f32,
 }

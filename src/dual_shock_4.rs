@@ -3,10 +3,10 @@ use serde::{Serialize, Deserialize};
 #[derive(Serialize, Deserialize)]
 pub struct Axis
 {
-    pub joy_left_x:u8,
-    pub joy_right_x:u8,
-    pub joy_left_y:u8,
-    pub joy_right_y:u8,
+    pub joy_left_x:f32,
+    pub joy_right_x:f32,
+    pub joy_left_y:f32,
+    pub joy_right_y:f32,
 }
 
 #[derive(Serialize, Deserialize)]
